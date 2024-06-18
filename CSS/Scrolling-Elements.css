@@ -14,8 +14,8 @@
 }
 
 .scroll-img img {
-    height: 50px; /* Adjust the image height as needed */
-    margin-right: 20px; /* Space between images */
+    height: 50px; 
+    margin-right: 20px; 
 }
 
 /* .scroll-img::after, .scroll-img::before{

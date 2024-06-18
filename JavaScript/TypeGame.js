@@ -91,7 +91,7 @@ function addwords()
     const text = wordData.text; // google this shit
     const xpos = -rendercanvas.measureText(text).width;
     const ypos = Math.random() * (canvas.height - 200) + 200; 
-    const speed = 0.4 //can do mathrandom but that shit ass
+    const speed = 0.4 //can do mathrandom
     const link = wordData.link;
     const sound = wordData.sound;
     if (words.every(word => word.text !== text))
