@@ -1,0 +1,37 @@
+.scroll-img-container{
+    width: 670px;
+    height: 50px; 
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.scroll-img{
+    white-space: nowrap;
+    animation: scroll-img 40s linear infinite;
+    display: inline-block;
+}
+
+.scroll-img img {
+    height: 50px; /* Adjust the image height as needed */
+    margin-right: 20px; /* Space between images */
+}
+
+/* .scroll-img::after, .scroll-img::before{
+    content: '';
+    flex: 0 0 auto;
+}
+
+.scroll-img::after{
+    width: 100%;
+} */
+
+@keyframes scroll-img{
+    0% { 
+        transform: translateX(100%); 
+    }
+    100% { 
+        transform: translateX(-100%); 
+    }
+}
