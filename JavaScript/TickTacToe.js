@@ -111,11 +111,11 @@ function checkWinner()
         return;
     }
 
-    if(OandXboard[0][2] == OandXboard[1][1] && OandXboard[1][1] == OandXboard[2][0] && OandXboard[0][2] != ' ') //FIX THIS BAG OF WANK // MOFARAH HAS MINIMUM EXP BUT HE COULD DO BETTER JAMES MENTIONED TYPOS NO IDEA WHAT HES ON ABOUTW
+    if(OandXboard[0][2] == OandXboard[1][1] && OandXboard[1][1] == OandXboard[2][0] && OandXboard[0][2] != ' ') 
         {
             for(let i = 0; i < 3; i++)
             {
-                let tile = document.getElementById(i.toString() + "-" + (2 - i).toString());// i dont get this shit man like wtf this dont make any sense brooo wooohhh                
+                let tile = document.getElementById(i.toString() + "-" + (2 - i).toString());           
                 tile.classList.add("winner");
             }
             gameover = true;
